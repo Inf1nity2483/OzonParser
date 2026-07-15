@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Runtime outputs (могут быть большими)
+data/*.json
+data/*.db
+data/checkpoints/
+data/segment_cache.db
+
+# Keep reviewer-facing demo log
+!data/demo_run.txt
+
+# Python / tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/

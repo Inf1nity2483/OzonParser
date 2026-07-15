@@ -1,0 +1,13 @@
+services:
+  pipeline:
+    build: .
+    env_file:
+      - .env
+    environment:
+      - DEMO_MODE=${DEMO_MODE:-true}
+      - LLM_MOCK=${LLM_MOCK:-true}
+      - CRM_MOCK=${CRM_MOCK:-true}
+      - PARSER_MOCK=${PARSER_MOCK:-true}
+    volumes:
+      - ./data:/app/data
+    restart: "no"

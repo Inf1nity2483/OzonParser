@@ -1,0 +1,5 @@
+{
+  "widgetStates": {
+    "searchResultsV2-123": "{\"items\": [{\"tile\": {\"sku\": \"100001\", \"title\": \"Смартфон Samsung Galaxy A15\", \"mainState\": [{\"type\": \"priceV2\", \"priceV2\": {\"price\": [{\"text\": \"12990\", \"textStyle\": \"PRICE\"}], \"discount\": \"\"}}], \"rating\": 4.5, \"reviewsCount\": 120}}, {\"tile\": {\"sku\": \"100002\", \"title\": \"Apple iPhone 15 Pro Max\", \"mainState\": [{\"type\": \"priceV2\", \"priceV2\": {\"price\": [{\"text\": \"119990\", \"textStyle\": \"PRICE\"}]}}], \"rating\": 4.9, \"reviewsCount\": 500}}]}"
+  }
+}
