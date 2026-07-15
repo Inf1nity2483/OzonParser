@@ -117,7 +117,10 @@ class AmoCRMClient:
                     response = await self._post_tasks_batch(client, url, payload)
                 except RateLimitError:
                     errors += len(batch)
-                    logger.error("AmoCRM rate limit exceeded after retries for batch of %d", len(batch))
+                    logger.error(
+                        "AmoCRM rate limit exceeded after retries for batch of %d",
+                        len(batch),
+                    )
                     continue
 
                 if response.status_code in (200, 201):
